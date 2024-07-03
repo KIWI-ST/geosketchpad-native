@@ -1,0 +1,58 @@
+# build
+build/**/*
+.vs/**/*
+.VSCodeCounter/**/*
+third_party/dawn/**/*
+third_party/glfw/**/*
+out/**/*
+tools/tint/depot_tools/**/*
+tools/tint/install/**/*
+tools/tint/tint/**/*
+tools/tint/tint.build/**/*
+
+tools/dawn/depot_tools/**/*
+tools/dawn/install/**/*
+tools/dawn/dawn/**/*
+tools/dawn/dawn.build/**/*
+
+tools/dawn/dawn/
+tools/dawn/depot_tools/
+
+external/dawn/**/*
+external/tint/**/*
+
+#
+vcpkg_installed/**/*
+
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+# *.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+# *.lib
+
+# Executables
+*.exe
+*.out
+*.app
