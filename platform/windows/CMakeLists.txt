@@ -22,7 +22,7 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 add_executable(geosketchpad-native ${SOURCEFILES})
 
 set_target_properties(geosketchpad-native PROPERTIES LINKER_LANGUAGE CXX)
-target_link_libraries(geosketchpad-native PUBLIC rci)
+target_link_libraries(geosketchpad-native PUBLIC rci imgui)
 
 set_property(TARGET imgui PROPERTY FOLDER "third_party/")
 set_property(TARGET rci PROPERTY FOLDER "third_party/")
