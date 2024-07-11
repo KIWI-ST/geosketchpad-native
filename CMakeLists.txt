@@ -15,6 +15,8 @@ if(WIN32)
 
     add_definitions(-D __WIN32__)
 
+    add_subdirectory(package/camera)
+
     # add imgui library
     set(IMGUI_DIR "third_party/imgui")
     include_directories(${IMGUI_DIR})
@@ -36,7 +38,7 @@ if(WIN32)
     ${IMGUI_DIR}/imstb_textedit.h
     ${IMGUI_DIR}/imstb_truetype.h
     )
-    target_link_libraries(imgui PUBLIC rci glfw)
+    target_link_libraries(imgui PUBLIC rci glfw camera)
 
     add_subdirectory(platform/windows)
     set_property(DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR} PROPERTY VS_STARTUP_PROJECT geosketchpad-native)
