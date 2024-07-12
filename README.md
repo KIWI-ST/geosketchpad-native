@@ -13,8 +13,18 @@
 - - 自然效应如丁达尔、锐利散射、云层、天气等（空）
 - - 大气层
 
+# tool #
+> 
+``` shell
+set http_proxy=http://127.0.0.1:1080
+set https_proxy=http://127.0.0.1:1080
+git submodule add https://github.com/g-truc/glm.git third_party/glm
+```
+
 ## maestro ##
 核心数字资产处理模块
 
 ## ccs ###
 Camera Control System, 运镜系统
+
+
