@@ -1,5 +1,10 @@
 # geosketchpad-native
 
+```shell
+emcmake cmake -B build -S.
+```
+
+
 1：1真实感地理画板
 地理画板（geosketchpad）旨在结合传统的渲染管线、先进的AIGC管线完成地理全空间要素渲染。
 全空间要素概念：
